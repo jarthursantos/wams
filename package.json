@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jarthursantos/wams/issues"
   },
-  "homepage": "https://github.com/jarthursantos/wams#readme"
+  "homepage": "https://github.com/jarthursantos/wams#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }

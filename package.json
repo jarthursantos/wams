@@ -4,7 +4,8 @@
   "description": "WhatsApp Message Scheduler",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/main.ts"
+    "dev": "tsx watch src/main.ts",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/jarthursantos/wams#readme",
   "devDependencies": {
+    "tsup": "^6.7.0",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
   }
